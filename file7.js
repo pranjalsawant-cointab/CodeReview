@@ -16,7 +16,9 @@ if (data.name = "Bob") {
 for (i = 0; i < 5; i++) {
   setTimeout(() => console.log(i), 100)
 }
-function unusedFunction2() {}
-unusedFunction()
+function unusedFunction() {
+  // function implementation
+}
 
+unusedFunction();
 
